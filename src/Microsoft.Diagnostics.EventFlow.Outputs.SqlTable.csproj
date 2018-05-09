@@ -5,15 +5,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Compile Remove="Properties\AssemblyInfo.cs" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<None Remove="Microsoft.Diagnostics.EventFlow.Outputs.SqlTable.csproj.orig" />
-		<None Remove="Microsoft.Diagnostics.EventFlow.Outputs.SqlTable.sln.orig" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<PackageReference Include="Microsoft.Diagnostics.EventFlow.Core" Version="1.4.0" />
 		<PackageReference Include="System.Data.SqlClient" Version="4.4.3" />
 	</ItemGroup>
@@ -21,9 +12,5 @@
 		<Reference Include="System.Transactions"></Reference>
 	</ItemGroup>
 	
-
-	<ItemGroup>
-		<Folder Include="Properties\" />
-	</ItemGroup>
 
 </Project>
